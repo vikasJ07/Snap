@@ -1,0 +1,537 @@
+<html>
+    <head>
+        <title>Explore</title>
+    </head>
+    <style>
+        
+            .menu ol{
+				list-style-type:none;
+			}
+			.menu ol li a{
+                
+				text-decoration:none;
+				color:black;
+				display:table;
+				float:right;
+				padding:10px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 22px;
+			}
+			.menu ol li{
+                padding-right: 1%;
+				display:table;
+				float:right;	
+				padding-top:15px;
+                
+			}
+           
+            .search input{
+              display:table;
+              float:right;  
+              margin-right: 10px;
+              height:50px; 
+              margin-top:10px;
+              width: 500px;
+              background-color: whitesmoke;
+              font-size: 18px;
+              font-family:Arial, Helvetica, sans-serif;
+
+
+            }
+       
+            .button p{
+                text-decoration:none;
+                display: table;
+                float: right;
+				color:white;
+                padding-bottom: 6px;
+                width:90px;
+                
+                background-color: darkgreen;
+                margin-right: 7%;
+                font-size: 25px;
+                margin-bottom: 2px;
+                padding-top: 1px;
+                
+            }
+            .logo{
+                padding-right: 15px;
+                width:2%;
+                
+
+            }
+            .name p{
+                
+                display: table;
+                float:left;
+                color:black;
+                margin-left: 120px;
+                margin-top: -60px;
+                font-size: 25px;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .name p b{
+                color: #A8B1B8;
+            }
+            .line{
+                margin-top: 6px;
+                border-bottom: solid;
+                border-width: thin;
+                border-color: lightgrey;
+            }
+            .block2{
+               
+               margin-top: 15px;
+               padding: 15px;
+               margin-left: 570px;
+               font-size: 18px;
+           }
+           .block2 .home p {
+               color:black;
+               text-decoration:none;
+               display:table;
+               float:left;
+               padding-right:50px;
+                 
+           }
+           .block2 .Leaderboard p{
+               color:black;
+               text-decoration:none;
+               display:table;
+               float:left;
+               padding-right:50px;
+           }
+           .block2 .Challenges p {
+               color:black;
+               text-decoration:none;
+               display:table;
+               float:left;
+               padding-right:50px;
+           }
+           .heading{
+            
+            margin-top: 70px;
+            font-size: 37px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-right: 30px;
+           }
+           .collections p{
+            padding-left: 40px;
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+           }
+           .button1 p{
+            width:90px;
+            height: 40px;
+            background-color: whitesmoke;
+            text-decoration: none;
+            display: table;
+            float: left;
+            margin-top: 4px;
+            padding-top: 10px;
+            margin-left: 40px;
+            padding-right: 20px;
+            border: solid;
+            border-width: thin;
+            font-size: 18px;
+            color:black
+            
+            
+           }
+        
+           .button2 p{
+            width:90px;
+            height: 40px;
+            text-decoration: none;
+            display: table;
+            float: left;
+            border: solid;
+            border-width: thin;
+            margin-top: 4px;
+            padding-top: 10px;
+            padding-right: 30px;
+            font-size: 18px;
+            color: black;
+            background-color: whitesmoke;
+            
+
+            
+            
+            
+           }
+           .button3 p{
+            width:90px;
+            height: 40px;
+            text-decoration: none;
+            display: table;
+            float: left;
+            margin-top: 4px;
+            padding-top: 10px;
+            padding-right: 20px;
+            border: solid;
+            border-width: thin;
+            font-size: 18px;
+            color: black;
+            background-color: whitesmoke;
+           }
+           .clear{
+            clear:both;
+           }
+          
+           .block3 .img1 {
+            margin-left: 40px;
+            margin-top: 10px;
+            padding-right: 70px;
+            display:table;
+            float:left;
+           }
+           .block3 .img1 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+           }
+           .block3 .img2 {
+            margin-top: 10px;
+            
+            padding-left:90px ;
+            display:table;
+            float:left;
+           }
+           .block3 .img2 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+           }
+           .block3 .img3 {
+            margin-top: 10px;
+           
+            padding-left:170px ;
+            display:table;
+            float:left;
+           }
+           .block3 .img3 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:40px;
+           }
+           .clear2{
+            clear:both;
+           }
+           .block4 p{
+            padding-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 55px;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .block4 .img1 {
+            margin-left: 40px;
+            margin-top: 30px;
+            padding-right: 70px;
+            display:table;
+            float:left;
+           }
+           .block4 .img1 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: -20px;
+            padding-bottom: 100px;
+           }
+           .block4 .img2 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: -20px;
+           }
+           .block4 .img3 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:40px;
+            margin-top: -20px;
+           }
+           .block4 .img2 {
+            margin-top: 30px;
+            
+            padding-left:90px ;
+            display:table;
+            float:left;
+           }
+           .block4 .img3 {
+            margin-top: 30px;
+           
+            padding-left:180px ;
+            display:table;
+            float:left;
+           }
+           .clear3{
+            clear:both;
+           }
+         
+           .block5 p{
+            margin-top: -0px;
+            margin-bottom: 50px;
+            margin-left: 40px;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .block5 .button1 p{
+            width:150px;
+            height: 35px;
+            text-decoration: none;
+            display: table;
+            float: left;
+            border: solid;
+            border-width: thin;
+            margin-top: -25px;
+            padding-top: 14px;
+            padding-right: 30px;
+            font-size: 18px;
+            color: black;
+            background-color: whitesmoke;
+
+            
+           }
+           .block5 .button2 p{
+            width:160px;
+            height: 35px;
+            text-decoration: none;
+            display: table;
+            float: left;
+            margin-top: -25px;
+            padding-top: 10px;
+            padding-right: 20px;
+            border: solid;
+            border-width: thin;
+            font-size: 18px;
+            color: black;
+            background-color: whitesmoke;
+           }
+           .block5 .img1 {
+            margin-left: -400px;
+         
+            margin-top: 50px;
+            
+            display:table;
+            float:left;
+           }
+           .block5 .img1 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: 10px;
+           }
+           .block5 .img2 {
+            margin-top: 50px;
+            padding-left:90px ;
+            display:table;
+            float:left;
+           }
+           .block5 .img2 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: 10px;
+           }
+           .block5 .img3 {
+            margin-top: 50px;
+           
+            padding-left:170px ;
+            display:table;
+            float:left;
+           }
+           .block5 .img3 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:40px;
+            margin-top: 10px;
+           }
+           .clear4{
+            clear:both;
+           }
+           .block6 p{
+            padding-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 55px;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .block6 .button1 p{
+            width:100px;
+            height: 35px;
+            text-decoration: none;
+            display: table;
+            float: left;
+            border: solid;
+            border-width: thin;
+            margin-top: -25px;
+            padding-top: 14px;
+            padding-right: 30px;
+            font-size: 18px;
+            color: black;
+            background-color: whitesmoke;
+           }
+           .block6 .img1 {
+            margin-left: -140px;
+         
+            margin-top: 50px;
+            
+            display:table;
+            float:left;
+           }
+           .block6 .img1 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: 10px;
+           }
+           .block6 .img2 {
+            margin-top: 50px;
+            padding-left:160px ;
+            display:table;
+            float:left;
+           }
+           .block6 .img2 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:10px;
+            margin-top: 10px;
+           }
+           .block6 .img3 {
+            margin-top: 50px;
+           
+            padding-left:80px ;
+            display:table;
+            float:left;
+           }
+           .block6 .img3 p{
+            font-size: 25px;
+            font-family:'Times New Roman', Times, serif;
+            margin-left:40px;
+            margin-top: 10px;
+           }
+
+    </style>
+
+
+    <body>
+        <div class="block1">
+            
+            <div class="menu">
+                <div class="button" align="center">
+                    <a href="join.html"><p>Join</p></a>
+                </div>
+                <ol type="1">
+                    <li><a href="#"> Upload</a></li>
+                    <li><a href="about.html"> About Us </a></li>
+                    <li><a href="explore.html"> Explore  </a></li>
+                    <li><a href="Homepage.html"> Home  </a></li>
+                  </ol>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="       Search for free Photos">
+                </div>
+            </div>
+           
+            <div class="logo">
+                <img src="./images/snap.png" width="140px" height="75px">
+            </div>
+            <div class="name">
+                <p>Snap <b>Photography</b></p>
+            </div>
+            <div class="line">
+
+            </div>
+        </div>
+
+        <div class="heading" align="center">
+            <p> Discover the Best of Snaps</p>
+        </div>
+        <div class="collections">
+            <p>Popular Collections</p>
+        </div>
+        <div class="button1" align="center">
+            <a href="#"><p>Flowers</p></a>
+        </div>
+        <div class="button2" align="center">
+            <a href="#"><p>Temples</p></a>
+        </div>
+        <div class="button3" align="center">
+            <a href="#"><p>Nature</p></a>
+        </div>
+        <div class="clear"></div>
+        <div class="block3">
+            <div class="img1">
+                <a href="https://www.pexels.com/search/flowers/"><img src="images/f clg.jpg" width="140%" height="350px"></a>
+                <p>Flowers</p>
+            </div>
+            <div class="img2">
+                <a href="https://www.pexels.com/search/seashore/"><img src="images/s clg.jpg" width="140%" height="350px"></a>
+            <p>Sea</p>
+            </div>
+            <div class="img3">
+                <a href="https://www.pexels.com/search/insects/"><img src="images/i clg.jpg" width="140%" height="350px"></a>
+            <p>Insects</p>
+            </div>
+        </div>
+        <div class="clear2"></div>  
+        <div class="block4">
+            <p> Recommended For You</p>
+            <div class="img1">
+                <a href="https://www.pexels.com/search/animals/"><img src="images/a clg.jpg" width="120%" height="350px"></a>
+                <p>Animals</p>
+            </div>
+            <div class="img2">
+                <a href="https://www.pexels.com/search/nature/"><img src="images/n clg.jpg" width="120%" height="350px"></a>
+            <p>Nature</p>
+            </div>
+            <div class="img3">
+                <a href="https://www.pexels.com/search/temples/"><img src="images/t clg.jpg" width="120%" height="350px"></a>
+            <p>Temples</p>
+            </div>
+        </div>
+        <div class="clear3"></div>   
+        <div class="block5">
+            <p> Photography Topics</p>
+            <div class="button1" align="center">
+                <a href="#"><p>Food Photography</p></a>
+            </div>
+            <div class="button2" align="center">
+                <a href="#"><p>People Photography</p></a>
+            </div>
+            <div class="img1">
+                <a href="#"><img src="images/underwater.jpg" width="120%" height="350px"></a>
+                <p>Underwater</p>
+            </div>
+            <div class="img2">
+                <a href="#"><img src="images/n.jpg" width="120%" height="350px"></a>
+            <p>Nights</p>
+            </div>
+            <div class="img3">
+                <a href="#"><img src="images/sky.jpg" width="100%" height="350px"></a>
+            <p>Sky</p>
+            </div>
+        </div>
+        <div class="clear4"></div>
+        <div class="block6">
+            <p>Art</p>
+            <div class="button1" align="center">
+                <a href="#"><p>Art</p></a>
+            </div>
+            <div class="img1">
+                <a href="#"><img src="images/art.jpg" width="120%" height="350px"></a>
+                <p>Art</p>
+            </div>
+            <div class="img2">
+                <a href="#"><img src="images/art and m.png" width="100%" height="350px"></a>
+            <p>Art & Museum</p>
+            </div>
+            <div class="img3">
+                <a href="#"><img src="images/abstrat.png" width="100%" height="350px"></a>
+            <p>Abstrat Art</p>
+            </div>
+
+
+        </div>
+    </body>
+</html>
